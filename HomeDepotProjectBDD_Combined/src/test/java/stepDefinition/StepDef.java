@@ -66,9 +66,9 @@ public class StepDef extends BaseClassHomeDepot{
 			ChromeOptions op = new ChromeOptions();
 			op.setHeadless(true);
 			op.addArguments("window-size=1920,1080");
-			driver = new ChromeDriver(op);
+			//driver = new ChromeDriver(op);
 			
-			//driver = new ChromeDriver();
+			driver = new ChromeDriver();
 		}
 		else if(brow.equals("IE")) 
 		{
